@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from phones.views import show_catalog,index,show_product
+# from phones.views import show_catalog, index, show_product, test_show_catalog
+from phones.views import show_catalog, show_product, index
 
 
 urlpatterns = [

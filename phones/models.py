@@ -3,6 +3,7 @@ from django.template.defaultfilters import slugify
 
 
 class Phone(models.Model):
+    objects = models.Manager()
     name = models.CharField(max_length=100)
     price = models.IntegerField()
     image = models.CharField(max_length=100)
