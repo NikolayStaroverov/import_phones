@@ -19,6 +19,5 @@ class Command(BaseCommand):
                 price=phone['price'],
                 image=phone['image'],
                 release_date=phone['release_date'],
-                lte_exists=phone['lte_exists'],
-                slug=phone['slug']
+                lte_exists=phone['lte_exists']
             )
